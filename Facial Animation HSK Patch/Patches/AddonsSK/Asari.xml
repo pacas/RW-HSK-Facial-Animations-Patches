@@ -66,12 +66,6 @@
                         </value>
                     </match>
                 </li>
-                <li Class="PatchOperationReplace">
-                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Asari"]/alienRace/generalSettings/alienPartGenerator/bodyAddons//li[2]/path</xpath>
-                    <value>
-                        <path>Things/AsariHeads/Female_Average</path>
-                    </value>
-                </li>
             </operations>
         </match>
     </Operation>
