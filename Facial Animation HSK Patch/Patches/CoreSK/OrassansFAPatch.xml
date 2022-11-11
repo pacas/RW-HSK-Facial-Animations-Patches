@@ -63,7 +63,7 @@
                 <li>
                     <drawSize>.87</drawSize>
                     <path>Things/Pawn/Humanlike/Tails/OTail</path>
-                    <bodyPart>tail</bodyPart>
+                    <bodyPart>Tail</bodyPart>
                     <backstoryGraphics>
                         <Orassan_GeneWarrior>Things/Pawn/Humanlike/Tails/OTailG</Orassan_GeneWarrior>
                     </backstoryGraphics>
