@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<FacialAnimation.LidTypeDef>
+		<defName>SerenLidNormal</defName>
+		<texPath>Things/Pawn/Seren/Original/Lids/Normal</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/Transparent</shader>
+		<probability>0.1</probability>
+	</FacialAnimation.LidTypeDef>
+
+	<FacialAnimation.LidTypeDef>
+		<defName>SerenLidPointy</defName>
+		<texPath>Things/Pawn/Seren/Original/Lids/Pointy</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/Transparent</shader>
+		<probability>0.1</probability>
+	</FacialAnimation.LidTypeDef>
+
+	<FacialAnimation.LidTypeDef>
+		<defName>SerenLidFlashy</defName>
+		<texPath>Things/Pawn/Seren/Original/Lids/Flashy</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/Transparent</shader>
+		<probability>0.1</probability>
+	</FacialAnimation.LidTypeDef>
+
+	<FacialAnimation.LidTypeDef>
+		<defName>SerenLidQuite</defName>
+		<texPath>Things/Pawn/Seren/Original/Lids/Quite</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/Transparent</shader>
+		<probability>0.1</probability>
+	</FacialAnimation.LidTypeDef>
+
+	<FacialAnimation.LidTypeDef>
+		<defName>SerenLidSleepy</defName>
+		<texPath>Things/Pawn/Seren/Original/Lids/Sleepy</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/Transparent</shader>
+		<probability>0.1</probability>
+	</FacialAnimation.LidTypeDef>
+
+	<FacialAnimation.LidTypeDef>
+		<defName>SerenLidSharp</defName>
+		<texPath>Things/Pawn/Seren/Original/Lids/Sharp</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/Transparent</shader>
+		<probability>0.1</probability>
+	</FacialAnimation.LidTypeDef>
+
+</Defs>  

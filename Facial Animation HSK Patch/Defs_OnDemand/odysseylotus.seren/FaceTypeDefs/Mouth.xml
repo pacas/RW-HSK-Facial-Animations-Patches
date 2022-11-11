@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<FacialAnimation.MouthTypeDef>
+		<defName>SerenMouthNormal</defName>
+		<texPath>Things/Pawn/Seren/Original/Mouth/Normal</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/CutoutComplex</shader>
+		<probability>1</probability>
+	</FacialAnimation.MouthTypeDef>
+
+	<FacialAnimation.MouthTypeDef>
+		<defName>SerenMouthHappy</defName>
+		<texPath>Things/Pawn/Seren/Mouth/Happy</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/CutoutComplex</shader>
+		<probability>0</probability>
+	</FacialAnimation.MouthTypeDef>
+	
+</Defs>

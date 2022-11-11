@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<FacialAnimation.EyeballTypeDef>  
+		<defName>ChjAndroid_EyeNormal</defName>
+		<texPath>Things/Pawn/FA-Experimentals/Eyes/Normal</texPath>
+		<raceName>ChjAndroid</raceName>
+		<shader>Map/CutoutSkinOverlay</shader>
+		<minColor>RGB(0.85,0.85,0.85)</minColor>
+		<maxColor>RGB(0.85,0.85,0.85)</maxColor>
+	</FacialAnimation.EyeballTypeDef>
+
+	<FacialAnimation.EyeballTypeDef>
+		<defName>ChjAndroid_EyeWide</defName>
+		<texPath>Things/Pawn/FA-Experimentals/Eyes/Wide</texPath>
+		<raceName>ChjAndroid</raceName>
+		<shader>Map/CutoutSkinOverlay</shader>
+		<minColor>RGB(0.85,0.85,0.85)</minColor>
+		<maxColor>RGB(0.85,0.85,0.85)</maxColor>
+	</FacialAnimation.EyeballTypeDef>
+
+	<FacialAnimation.EyeballTypeDef>
+		<defName>ChjAndroid_EyePointy</defName>
+		<texPath>Things/Pawn/FA-Experimentals/Eyes/Pointy</texPath>
+		<raceName>ChjAndroid</raceName>
+		<shader>Map/CutoutSkinOverlay</shader>
+		<minColor>RGB(0.85,0.85,0.85)</minColor>
+		<maxColor>RGB(0.85,0.85,0.85)</maxColor>
+	</FacialAnimation.EyeballTypeDef>
+
+	<FacialAnimation.EyeballTypeDef>
+		<defName>ChjAndroid_EyeDull</defName>
+		<texPath>Things/Pawn/FA-Experimentals/Eyes/Dull</texPath>
+		<raceName>ChjAndroid</raceName>
+		<shader>Map/CutoutSkinOverlay</shader>
+		<minColor>RGB(0.85,0.85,0.85)</minColor>
+		<maxColor>RGB(0.85,0.85,0.85)</maxColor>
+		<gender>Female</gender>
+	</FacialAnimation.EyeballTypeDef>
+
+	<FacialAnimation.EyeballTypeDef>
+		<defName>ChjAndroid_EyeSanpaku</defName>
+		<texPath>Things/Pawn/FA-Experimentals/Eyes/Sanpaku</texPath>
+		<raceName>ChjAndroid</raceName>
+		<shader>Map/CutoutSkinOverlay</shader>
+		<minColor>RGB(0.85,0.85,0.85)</minColor>
+		<maxColor>RGB(0.85,0.85,0.85)</maxColor>
+		<gender>Female</gender>
+	</FacialAnimation.EyeballTypeDef>
+
+</Defs>

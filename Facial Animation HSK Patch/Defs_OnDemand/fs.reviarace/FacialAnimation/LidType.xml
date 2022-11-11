@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <!-- Facial Animation Originals -->
+  <FacialAnimation.LidTypeDef>
+    <defName>Revia_LidNormal</defName>
+    <texPath>Things/Pawn/Revia/FA_Original/Lids/Normal</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+    <probability>0.1</probability>
+  </FacialAnimation.LidTypeDef>
+
+  <FacialAnimation.LidTypeDef>
+    <defName>Revia_LidPointy</defName>
+    <texPath>Things/Pawn/Revia/FA_Original/Lids/Pointy</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+    <probability>0.1</probability>
+    <gender>Female</gender>
+  </FacialAnimation.LidTypeDef>
+
+  <FacialAnimation.LidTypeDef>
+    <defName>Revia_LidFlashy</defName>
+    <texPath>Things/Pawn/Revia/FA_Original/Lids/Flashy</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+    <probability>0.1</probability>
+    <gender>Female</gender>
+  </FacialAnimation.LidTypeDef>
+
+  <FacialAnimation.LidTypeDef>
+    <defName>Revia_LidQuite</defName>
+    <texPath>Things/Pawn/Revia/FA_Original/Lids/Quite</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+    <probability>0.1</probability>
+    <gender>Female</gender>
+  </FacialAnimation.LidTypeDef>
+
+  <FacialAnimation.LidTypeDef>
+    <defName>Revia_LidSleepy</defName>
+    <texPath>Things/Pawn/Revia/FA_Original/Lids/Sleepy</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+    <probability>0.1</probability>
+    <gender>Female</gender>
+  </FacialAnimation.LidTypeDef>
+
+  <FacialAnimation.LidTypeDef>
+    <defName>Revia_LidSharp</defName>
+    <texPath>Things/Pawn/Revia/FA_Original/Lids/Sharp</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+    <probability>0.1</probability>
+    <gender>Female</gender>
+  </FacialAnimation.LidTypeDef>
+
+  <!-- Facial Animation Custom -->
+  <FacialAnimation.LidTypeDef>
+    <defName>LidLeftClosed</defName>
+    <texPath>Things/Pawn/Revia/Lids/LeftClosed</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <probability>0.05</probability>
+    <shader>Map/Transparent</shader>
+  </FacialAnimation.LidTypeDef>
+
+  <FacialAnimation.LidTypeDef>
+    <defName>LidRightClosed</defName>
+    <texPath>Things/Pawn/Revia/Lids/RightClosed</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <probability>0.05</probability>
+    <shader>Map/Transparent</shader>
+  </FacialAnimation.LidTypeDef>
+
+  <FacialAnimation.LidTypeDef>
+    <defName>LidFoxStyle</defName>
+    <texPath>Things/Pawn/Revia/Lids/FoxStyle</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <probability>0.2</probability>
+    <shader>Map/Transparent</shader>
+  </FacialAnimation.LidTypeDef>
+
+  <!--<FacialAnimation.LidTypeDef>
+    <defName>LidFoxStyleB</defName>
+    <texPath>Things/Pawn/Revia/Lids/FoxStyleB</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <probability>0.01</probability>
+    <shader>Map/Transparent</shader>
+  </FacialAnimation.LidTypeDef>-->
+
+</Defs>  

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<!-- Facial Animation Originals -->
+	<FacialAnimation.MouthTypeDef>
+		<defName>Revia_MouthNormal</defName>
+		<texPath>Things/Pawn/Revia/FA_Original/Mouth/Normal</texPath>
+		<raceName>ReviaRaceAlien</raceName>
+		<shader>Map/Transparent</shader>
+		<probability>0.2</probability>
+	</FacialAnimation.MouthTypeDef>
+
+	<FacialAnimation.MouthTypeDef>
+		<defName>MouthFang</defName>
+		<texPath>Things/Pawn/Revia/FA_Original/Mouth/Fang</texPath>
+		<raceName>ReviaRaceAlien</raceName>
+		<shader>Map/Transparent</shader>
+		<gender>Female</gender>
+		<probability>0.2</probability>
+	</FacialAnimation.MouthTypeDef>
+
+	<!-- Facial Animation Custom -->
+	<FacialAnimation.MouthTypeDef>
+		<defName>Revia_MouthSmug</defName>
+		<texPath>Things/Pawn/Revia/Mouth/Smug</texPath>
+		<raceName>ReviaRaceAlien</raceName>
+		<shader>Map/Transparent</shader>
+		<probability>0.5</probability>
+	</FacialAnimation.MouthTypeDef>
+
+	<FacialAnimation.MouthTypeDef>
+		<defName>Revia_MouthAngry</defName>
+		<texPath>Things/Pawn/Revia/Mouth/Angry</texPath>
+		<raceName>ReviaRaceAlien</raceName>
+		<shader>Map/CutoutComplex</shader>
+		<probability>0.5</probability>
+	</FacialAnimation.MouthTypeDef>
+
+	<FacialAnimation.MouthTypeDef>
+		<defName>Revia_MouthPout</defName>
+		<texPath>Things/Pawn/Revia/Mouth/Pout</texPath>
+		<raceName>ReviaRaceAlien</raceName>
+		<shader>Map/Transparent</shader>
+		<probability>0.5</probability>
+	</FacialAnimation.MouthTypeDef>
+
+	<FacialAnimation.MouthTypeDef>
+		<defName>Revia_MouthPoutB</defName>
+		<texPath>Things/Pawn/Revia/Mouth/PoutB</texPath>
+		<raceName>ReviaRaceAlien</raceName>
+		<shader>Map/Transparent</shader>
+		<probability>0.5</probability>
+	</FacialAnimation.MouthTypeDef>
+
+</Defs>

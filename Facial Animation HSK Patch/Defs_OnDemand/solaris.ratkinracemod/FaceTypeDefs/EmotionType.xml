@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.EmotionTypeDef>
+    <defName>Ratkin_EmotionNormal</defName>
+    <texPath>Things/Pawn/Ratkin_Experimentals/Emotions/Normal</texPath>
+    <raceName>Ratkin</raceName>
+    <shader>Map/Transparent</shader>
+  </FacialAnimation.EmotionTypeDef>
+  
+  <FacialAnimation.EmotionTypeDef>
+    <defName>Ratkin_EmotionNormal_Su</defName>
+    <texPath>Things/Pawn/Ratkin_Experimentals/Emotions/Normal</texPath>
+    <raceName>Ratkin_Su</raceName>
+    <shader>Map/Transparent</shader>
+  </FacialAnimation.EmotionTypeDef>
+</Defs>

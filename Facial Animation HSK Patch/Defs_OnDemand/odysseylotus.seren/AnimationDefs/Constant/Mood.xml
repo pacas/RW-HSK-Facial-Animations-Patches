@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FacialAnimation.FaceAnimationDef>
+		<defName>SerenHappy</defName>
+		<animationFrames>
+			<li>
+				<duration>1</duration>
+				<mouthShapeDef>happy</mouthShapeDef>
+			</li>
+		</animationFrames>
+		<priority>1000</priority>
+		<targetMoodMax>1.00</targetMoodMax>
+		<targetMoodMin>0.75</targetMoodMin>
+	</FacialAnimation.FaceAnimationDef>
+ 
+ </Defs>

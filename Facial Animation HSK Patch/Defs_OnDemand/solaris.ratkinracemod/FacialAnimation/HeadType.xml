@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.HeadTypeDef>
+	  <defName>Ratkin_Head</defName>
+	  <texPath>Things/Pawn/Ratkin/Heads_Blank/Ratkinhead</texPath>
+	  <raceName>Ratkin</raceName>
+	  <shader>Map/CutoutSkin</shader>
+  </FacialAnimation.HeadTypeDef>
+  
+  <FacialAnimation.HeadTypeDef>
+	  <defName>Ratkin_Head_Su</defName>
+	  <texPath>Things/Pawn/Ratkin/Heads_Blank/Ratkinhead</texPath>
+	  <raceName>Ratkin_Su</raceName>
+	  <shader>Map/CutoutSkin</shader>
+  </FacialAnimation.HeadTypeDef>
+</Defs>

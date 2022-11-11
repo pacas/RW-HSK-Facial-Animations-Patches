@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  <FacialAnimation.FaceAnimationDef>
+    <defName>Revia_pain</defName>
+    <animationFrames>
+      <li>
+        <duration>1</duration>
+        <lidOptionShapeDef>tear</lidOptionShapeDef>
+      </li>
+    </animationFrames>
+    <targetPainMin>0.2</targetPainMin>
+    <targetPainMax>0.5</targetPainMax>
+    <priority>100000</priority>
+  </FacialAnimation.FaceAnimationDef>
+
+  <FacialAnimation.FaceAnimationDef>
+    <defName>Revia_painHigh</defName>
+    <animationFrames>
+      <li>
+        <duration>1</duration>
+        <lidOptionShapeDef>bloodtear</lidOptionShapeDef>
+      </li>
+    </animationFrames>
+    <targetPainMin>0.6</targetPainMin>
+    <targetPainMax>1.0</targetPainMax>
+    <priority>100000</priority>
+  </FacialAnimation.FaceAnimationDef>
+
+</Defs>

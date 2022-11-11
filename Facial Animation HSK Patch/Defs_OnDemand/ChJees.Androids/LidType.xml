@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<FacialAnimation.LidTypeDef>
+		<defName>ChjAndroid_LidNormal</defName>
+		<texPath>Things/Pawn/Androids/Lids/Normal</texPath>
+		<raceName>ChjAndroid</raceName>
+		<shader>Map/Transparent</shader>
+	</FacialAnimation.LidTypeDef>
+
+	<FacialAnimation.LidTypeDef>
+		<defName>ChjAndroid_LidPointy</defName>
+		<texPath>Things/Pawn/Androids/Lids/Pointy</texPath>
+		<raceName>ChjAndroid</raceName>
+		<shader>Map/Transparent</shader>
+		<gender>Female</gender>
+	</FacialAnimation.LidTypeDef>
+
+	<FacialAnimation.LidTypeDef>
+		<defName>ChjAndroid_LidFlashy</defName>
+		<texPath>Things/Pawn/Androids/Lids/Flashy</texPath>
+		<raceName>ChjAndroid</raceName>
+		<shader>Map/Transparent</shader>
+		<gender>Female</gender>
+	</FacialAnimation.LidTypeDef>
+
+	<FacialAnimation.LidTypeDef>
+		<defName>ChjAndroid_LidQuite</defName>
+		<texPath>Things/Pawn/Androids/Lids/Quite</texPath>
+		<raceName>ChjAndroid</raceName>
+		<shader>Map/Transparent</shader>
+		<gender>Female</gender>
+	</FacialAnimation.LidTypeDef>
+
+	<FacialAnimation.LidTypeDef>
+		<defName>ChjAndroid_LidSleepy</defName>
+		<texPath>Things/Pawn/Androids/Lids/Sleepy</texPath>
+		<raceName>ChjAndroid</raceName>
+		<shader>Map/Transparent</shader>
+		<gender>Female</gender>
+	</FacialAnimation.LidTypeDef>
+</Defs>

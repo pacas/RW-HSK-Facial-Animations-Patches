@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  <FacialAnimation.EyeballTypeDef>
+    <defName>Revia_EyeNormal</defName>
+    <texPath>Things/Pawn/Revia/Eyes/Normal</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.95,0.95,0.95)</maxColor>
+  </FacialAnimation.EyeballTypeDef>
+
+  <FacialAnimation.EyeballTypeDef>
+    <defName>Revia_EyeWide</defName>
+    <texPath>Things/Pawn/Revia/Eyes/Wide</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.95,0.95,0.95)</maxColor>
+  </FacialAnimation.EyeballTypeDef>
+
+  <FacialAnimation.EyeballTypeDef>
+    <defName>Revia_EyePointy</defName>
+    <texPath>Things/Pawn/Revia/Eyes/Pointy</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.95,0.95,0.95)</maxColor>
+  </FacialAnimation.EyeballTypeDef>
+
+  <FacialAnimation.EyeballTypeDef>
+    <defName>Revia_EyeDull</defName>
+    <texPath>Things/Pawn/Revia/Eyes/Dull</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.95,0.95,0.95)</maxColor>
+  </FacialAnimation.EyeballTypeDef>
+
+  <FacialAnimation.EyeballTypeDef>
+    <defName>Revia_EyeIntense</defName>
+    <texPath>Things/Pawn/Revia/Eyes/Intense</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.95,0.95,0.95)</maxColor>
+  </FacialAnimation.EyeballTypeDef>
+</Defs>

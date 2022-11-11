@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  <FacialAnimation.EmotionTypeDef>
+    <defName>Revia_EmotionNormal</defName>
+    <texPath>Things/Pawn/Revia/FA_Original/Emotions/Normal</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+  </FacialAnimation.EmotionTypeDef>
+</Defs>

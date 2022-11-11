@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.EyeballColorDef>
+    <defName>ArchotechEyeColor</defName>
+    <hediffDef>ArchotechEye</hediffDef>
+    <eyeballColor>RGB(0.85,1,0.25)</eyeballColor>
+  </FacialAnimation.EyeballColorDef>
+
+  <FacialAnimation.EyeballColorDef>
+    <defName>BionicEyeColor</defName>
+    <hediffDef>BionicEye</hediffDef>
+    <eyeballColor>RGB(0.25,0.85,1)</eyeballColor>
+  </FacialAnimation.EyeballColorDef>
+
+</Defs>

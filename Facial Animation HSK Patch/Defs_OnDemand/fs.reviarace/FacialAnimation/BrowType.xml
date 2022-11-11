@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<!-- Facial Animation Originals -->
+	<FacialAnimation.BrowTypeDef>
+		<defName>Revia_BrowNormal</defName>
+		<texPath>Things/Pawn/Revia/FA_Original/Brows/Normal</texPath>
+		<raceName>ReviaRaceAlien</raceName>
+		<shader>Map/Transparent</shader>
+	</FacialAnimation.BrowTypeDef>
+
+	<FacialAnimation.BrowTypeDef>
+		<defName>Revia_BrowThick</defName>
+		<texPath>Things/Pawn/Revia/FA_Original/Brows/Thick</texPath>
+		<raceName>ReviaRaceAlien</raceName>
+		<shader>Map/Transparent</shader>
+		<gender>Female</gender>
+	</FacialAnimation.BrowTypeDef>
+
+	<!-- Facial Animation Custom -->
+	<FacialAnimation.BrowTypeDef>
+		<defName>Revia_BrowConfused</defName>
+		<texPath>Things/Pawn/Revia/Brows/Confused</texPath>
+		<raceName>ReviaRaceAlien</raceName>
+		<shader>Map/Transparent</shader>
+	</FacialAnimation.BrowTypeDef>
+
+</Defs>

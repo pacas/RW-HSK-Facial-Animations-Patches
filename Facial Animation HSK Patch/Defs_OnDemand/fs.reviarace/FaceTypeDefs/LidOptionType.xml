@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  <FacialAnimation.LidOptionTypeDef>
+    <defName>Revia_LidOptionNormal</defName>
+    <texPath>Things/Pawn/Revia/LidOptions/Normal</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+    <minColor>(1,1,1,1)</minColor>
+    <maxColor>(1,1,1,1)</maxColor>
+  </FacialAnimation.LidOptionTypeDef>
+
+</Defs>

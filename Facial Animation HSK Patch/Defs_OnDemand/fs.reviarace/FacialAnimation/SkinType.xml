@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <!-- Facial Animation Originals -->
+  <FacialAnimation.SkinTypeDef>
+    <defName>Revia_SkinNormal</defName>
+    <texPath>Things/Pawn/Revia/FA_Original/Skins/Normal</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/CutoutSkin</shader>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>Revia_SkinRightEye</defName>
+    <texPath>Things/Pawn/Revia/FA_Original/Skins/RightEye</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+    <probability>0.05</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>Revia_SkinLeftChin</defName>
+    <texPath>Things/Pawn/Revia/FA_Original/Skins/LeftChin</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+    <probability>0.05</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>Revia_SkinFreckled</defName>
+    <texPath>Things/Pawn/Revia/FA_Original/Skins/Freckled</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+    <gender>Female</gender>
+    <probability>0.1</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <!-- Facial Animation Custom -->
+  <FacialAnimation.SkinTypeDef>
+    <defName>Revia_BeautyMark</defName>
+    <texPath>Things/Pawn/Revia/Skins/RightEyeBottom</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+    <gender>Female</gender>
+    <probability>0.1</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>Revia_BeautyMark2</defName>
+    <texPath>Things/Pawn/Revia/Skins/UpperLip</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+    <gender>Female</gender>
+    <probability>0.1</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>Revia_SkinScar</defName>
+    <texPath>Things/Pawn/Revia/Skins/Scar</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+    <gender>Female</gender>
+    <probability>0.1</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>Revia_SkinScar2</defName>
+    <texPath>Things/Pawn/Revia/Skins/Scar2</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+    <gender>Female</gender>
+    <probability>0.1</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>Revia_SkinScar2B</defName>
+    <texPath>Things/Pawn/Revia/Skins/Scar2B</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+    <gender>Female</gender>
+    <probability>0.1</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>Revia_SkinScar3</defName>
+    <texPath>Things/Pawn/Revia/Skins/Scar3</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+    <gender>Female</gender>
+    <probability>0.1</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>Revia_SkinScar3B</defName>
+    <texPath>Things/Pawn/Revia/Skins/Scar3B</texPath>
+    <raceName>ReviaRaceAlien</raceName>
+    <shader>Map/Transparent</shader>
+    <gender>Female</gender>
+    <probability>0.1</probability>
+  </FacialAnimation.SkinTypeDef>
+
+</Defs>
