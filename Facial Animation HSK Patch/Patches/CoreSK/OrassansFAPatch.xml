@@ -4,11 +4,11 @@
         <success>Always</success>
         <operations>
             <li Class="PatchOperationTest">
-                <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/comps</xpath>
+                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/comps</xpath>
                 <success>Invert</success>
             </li>
             <li Class="PatchOperationAdd">
-                <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]</xpath>
+                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]</xpath>
                 <value>
                     <comps/>
                 </value>
@@ -16,7 +16,7 @@
         </operations>
     </Operation>
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/comps</xpath>
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/comps</xpath>
         <value>
             <li>
                 <compClass>FacialAnimation.DrawFaceGraphicsComp</compClass>
@@ -49,7 +49,7 @@
             <li>Nals Facial Animation for HAR</li>
         </mods>
         <match Class="PatchOperationReplace">
-            <xpath>/Defs/FacialAnimation.FaceAdjustmentDef[defName="OrassanFaceSizeAndPositionDef"]/Size</xpath>
+            <xpath>Defs/FacialAnimation.FaceAdjustmentDef[defName="OrassanFaceSizeAndPositionDef"]/Size</xpath>
             <value>
                 <Size>(1.4,1.4)</Size>
             </value>
@@ -57,7 +57,7 @@
     </Operation>
     <!-- ============================ Ears and Tails ============================ 
     <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
         <value>
 			<bodyAddons>
 				<li>
@@ -308,11 +308,11 @@
     </Operation>-->
     <!-- ============================ Skin colors  ============================ -->
     <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/colorChannels</xpath>
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/colorChannels</xpath>
         <value>
 			<colorChannels>
 				<li>
-					<name>skin_orassan</name>
+					<name>skin</name>
 					<first Class="ColorGenerator_Options">
 						<options>
 							<li>
@@ -354,19 +354,19 @@
     </Operation>
     <!-- ============================ Body size  ============================ -->
     <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/customDrawSize</xpath>
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/customDrawSize</xpath>
         <value>
             <customDrawSize>(0.9, 0.9)</customDrawSize>
         </value>
     </Operation>
     <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/customPortraitDrawSize</xpath>
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator/customPortraitDrawSize</xpath>
         <value>
             <customPortraitDrawSize>(.9, .9)</customPortraitDrawSize>
         </value>
     </Operation>
     <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/race/baseBodySize</xpath>
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/race/baseBodySize</xpath>
         <value>
             <baseBodySize>.9</baseBodySize>
         </value>

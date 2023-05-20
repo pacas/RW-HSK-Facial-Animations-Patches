@@ -10,11 +10,11 @@
                     <success>Always</success>
                     <operations>
                         <li Class="PatchOperationTest">
-                            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="ReviaRaceAlien"]/comps</xpath>
+                            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ReviaRaceAlien"]/comps</xpath>
                             <success>Invert</success>
                         </li>
                         <li Class="PatchOperationAdd">
-                            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="ReviaRaceAlien"]</xpath>
+                            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ReviaRaceAlien"]</xpath>
                             <value>
                                 <comps/>
                             </value>
@@ -22,7 +22,7 @@
                     </operations>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="ReviaRaceAlien"]/comps</xpath>
+                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ReviaRaceAlien"]/comps</xpath>
                     <value>
                         <li>
                             <compClass>FacialAnimation.DrawFaceGraphicsComp</compClass>

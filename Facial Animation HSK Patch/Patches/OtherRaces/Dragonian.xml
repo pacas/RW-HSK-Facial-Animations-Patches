@@ -9,12 +9,12 @@
                 <match Class="PatchOperationSequence">
                     <operations>
                         <li Class="PatchOperationTest">
-                            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Female"]</xpath>
+                            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Female"]</xpath>
                         </li>
                         <li Class="PatchOperationConditional">
-                            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Female"]/comps</xpath>
+                            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Female"]/comps</xpath>
                             <nomatch Class="PatchOperationAdd">
-                                <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Female"]</xpath>
+                                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Female"]</xpath>
                                 <value>
                                     <comps>
                                         <li>
@@ -42,7 +42,7 @@
                                 </value>
                             </nomatch>
                             <match Class="PatchOperationAdd">
-                                <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Female"]/comps</xpath>
+                                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Dragonian_Female"]/comps</xpath>
                                 <value>
                                     <li>
                                         <compClass>FacialAnimation.DrawFaceGraphicsComp</compClass>

@@ -10,11 +10,11 @@
                     <success>Always</success>
                     <operations>
                         <li Class="PatchOperationTest">
-                            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Astoriel"]/comps</xpath>
+                            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Astoriel"]/comps</xpath>
                             <success>Invert</success>
                         </li>
                         <li Class="PatchOperationAdd">
-                            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Astoriel"]</xpath>
+                            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Astoriel"]</xpath>
                             <value>
                                 <comps/>
                             </value>
@@ -22,7 +22,7 @@
                     </operations>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Astoriel"]/comps</xpath>
+                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Astoriel"]/comps</xpath>
                     <value>
                         <li>
                             <compClass>FacialAnimation.DrawFaceGraphicsComp</compClass>
@@ -51,7 +51,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Astoriel"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
+                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Astoriel"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
                     <value>
                         <bodyAddons>
                             <li>

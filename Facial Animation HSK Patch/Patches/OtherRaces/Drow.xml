@@ -10,12 +10,12 @@
                     <success>Always</success>
                     <operations>
                         <li Class="PatchOperationTest">
-                            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Drow_Otto"]</xpath>
+                            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Drow_Otto"]</xpath>
                         </li>
                         <li Class="PatchOperationConditional">
-                            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Drow_Otto"]/comps</xpath>
+                            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Drow_Otto"]/comps</xpath>
                             <nomatch Class="PatchOperationAdd">
-                                <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Drow_Otto"]</xpath>
+                                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Drow_Otto"]</xpath>
                                 <value>
                                     <comps>
                                         <li>
@@ -43,7 +43,7 @@
                                 </value>
                             </nomatch>
                             <match Class="PatchOperationAdd">
-                                <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Drow_Otto"]/comps</xpath>
+                                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Drow_Otto"]/comps</xpath>
                                 <value>
                                     <li>
                                         <compClass>FacialAnimation.DrawFaceGraphicsComp</compClass>
