@@ -69,6 +69,16 @@
 					<useGenderedBodies>true</useGenderedBodies>
 				</value>
 			</li>-->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Nova"]/alienRace/generalSettings/graphicPaths</xpath>
+				<value>
+					<head>
+						<path>Things/Pawn/Humanlike/Heads_Blank_NoEars/</path>
+					</head>
+				</value>
+			</li>
+			
 		</operations>
 	</Operation>
 </Patch>
