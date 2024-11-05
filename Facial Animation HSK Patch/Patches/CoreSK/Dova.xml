@@ -4,12 +4,12 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Dova"]</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Dova"]</xpath>
 			</li>
 			<li Class="PatchOperationConditional">
-				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Dova"]/comps</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Dova"]/comps</xpath>
 				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Dova"]</xpath>
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Dova"]</xpath>
 					<value>
 						<comps>
 							<li>
@@ -37,7 +37,7 @@
 					</value>
 				</nomatch>
 				<match Class="PatchOperationAdd">
-					<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Dova"]/comps</xpath>
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Dova"]/comps</xpath>
 					<value>
 						<li>
 							<compClass>FacialAnimation.DrawFaceGraphicsComp</compClass>
@@ -64,11 +64,20 @@
 				</match>
 			</li>
 			<!--<li Class="PatchOperationAdd">
-				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator</xpath>
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Orassan"]/alienRace/generalSettings/alienPartGenerator</xpath>
 				<value>
 					<useGenderedBodies>true</useGenderedBodies>
 				</value>
 			</li>-->
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Dova"]/alienRace/generalSettings/graphicPaths</xpath>
+				<value>
+					<head>
+						<path>Things/Pawn/Humanlike/Heads_Blank_NoEars/</path>
+					</head>
+				</value>
+			</li>
 		</operations>
 	</Operation>
 </Patch>

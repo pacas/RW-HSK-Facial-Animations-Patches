@@ -14,12 +14,12 @@
                         <!-- <success>Always</success> -->
                         <operations>
                             <li Class="PatchOperationTest">
-                                <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CrystalloidAndroid"]</xpath>
+                                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CrystalloidAndroid"]</xpath>
                             </li>
                             <li Class="PatchOperationConditional">
-                                <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CrystalloidAndroid"]/comps</xpath>
+                                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CrystalloidAndroid"]/comps</xpath>
                                 <nomatch Class="PatchOperationAdd">
-                                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CrystalloidAndroid"]</xpath>
+                                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CrystalloidAndroid"]</xpath>
                                     <value>
                                         <comps>
                                             <li>
@@ -47,7 +47,7 @@
                                     </value>
                                 </nomatch>
                                 <match Class="PatchOperationAdd">
-                                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CrystalloidAndroid"]/comps</xpath>
+                                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CrystalloidAndroid"]/comps</xpath>
                                     <value>
                                         <li>
                                             <compClass>FacialAnimation.DrawFaceGraphicsComp</compClass>
@@ -84,7 +84,7 @@
                         <!-- <success>Always</success> -->
                         <operations>
                             <li Class="PatchOperationReplace">
-                                <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CrystalloidAndroid"]/alienRace/graphicPaths</xpath>
+                                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CrystalloidAndroid"]/alienRace/graphicPaths</xpath>
                                 <value>
                                     <graphicPaths>
                                         <li>
@@ -100,7 +100,7 @@
                                 </value>
                             </li>
                             <li Class="PatchOperationReplace">
-                                <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CrystalloidAndroid"]/alienRace/generalSettings/alienPartGenerator/aliencrowntypes</xpath>
+                                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CrystalloidAndroid"]/alienRace/generalSettings/alienPartGenerator/aliencrowntypes</xpath>
                                 <value>
                                     <aliencrowntypes>
                                         <li>Average_Normal</li>
@@ -113,7 +113,7 @@
                                 </value>
                             </li>
                             <li Class="PatchOperationAdd">
-                                <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CrystalloidAndroid"]/alienRace/generalSettings/alienPartGenerator/colorChannels/li[2]</xpath>
+                                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CrystalloidAndroid"]/alienRace/generalSettings/alienPartGenerator/colorChannels/li[2]</xpath>
                                 <value>
                                     <second Class="ColorGenerator_Options">
                                         <options>
@@ -146,7 +146,7 @@
                                 </value>
                             </li>
                             <li Class="PatchOperationAdd">
-                                <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CrystalloidAndroid"]/alienRace/generalSettings/alienPartGenerator</xpath>
+                                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_CrystalloidAndroid"]/alienRace/generalSettings/alienPartGenerator</xpath>
                                 <value>
                                     <bodyAddons>
                                         <!--           Female Markings           -->

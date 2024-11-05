@@ -10,11 +10,11 @@
                     <success>Always</success>
                     <operations>
                         <li Class="PatchOperationTest">
-                            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Crystalloid"]/comps</xpath>
+                            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Crystalloid"]/comps</xpath>
                             <success>Invert</success>
                         </li>
                         <li Class="PatchOperationAdd">
-                            <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Crystalloid"]</xpath>
+                            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Crystalloid"]</xpath>
                             <value>
                                 <comps/>
                             </value>
@@ -22,7 +22,7 @@
                     </operations>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Crystalloid"]/comps</xpath>
+                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Crystalloid"]/comps</xpath>
                     <value>
                         <li>
                             <compClass>FacialAnimation.DrawFaceGraphicsComp</compClass>
@@ -51,7 +51,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Crystalloid" or defName="Alien_CrystalValkyrie"]/alienRace/graphicPaths</xpath>
+                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Crystalloid" or defName="Alien_CrystalValkyrie"]/alienRace/graphicPaths</xpath>
                     <value>
                         <graphicPaths>
                             <li>
@@ -67,7 +67,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationReplace">
-                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Crystalloid" or defName="Alien_CrystalValkyrie"]/alienRace/generalSettings/alienPartGenerator/aliencrowntypes</xpath>
+                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Crystalloid" or defName="Alien_CrystalValkyrie"]/alienRace/generalSettings/alienPartGenerator/aliencrowntypes</xpath>
                     <value>
                         <aliencrowntypes>
                             <li>Average_Normal</li>
@@ -80,7 +80,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Crystalloid"]/alienRace/generalSettings/alienPartGenerator/colorChannels/li[2]</xpath>
+                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Crystalloid"]/alienRace/generalSettings/alienPartGenerator/colorChannels/li[2]</xpath>
                     <value>
                         <second Class="ColorGenerator_Options">
                             <options>
@@ -113,7 +113,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Crystalloid"]/alienRace/generalSettings/alienPartGenerator</xpath>
+                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_Crystalloid"]/alienRace/generalSettings/alienPartGenerator</xpath>
                     <value>
                         <bodyAddons>
                             <!--           Female Markings           -->

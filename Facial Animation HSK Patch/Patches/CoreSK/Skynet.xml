@@ -4,12 +4,12 @@
 		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
-				<xpath>/Defs/ThingDef[defName="SkynetCovert"]</xpath>
+				<xpath>Defs/ThingDef[defName="SkynetCovert"]</xpath>
 			</li>
 			<li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[defName="SkynetCovert"]/comps</xpath>
+				<xpath>Defs/ThingDef[defName="SkynetCovert"]/comps</xpath>
 				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="SkynetCovert"]</xpath>
+					<xpath>Defs/ThingDef[defName="SkynetCovert"]</xpath>
 					<value>
 						<comps>
 							<li>
@@ -37,7 +37,7 @@
 					</value>
 				</nomatch>
 				<match Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="SkynetCovert"]/comps</xpath>
+					<xpath>Defs/ThingDef[defName="SkynetCovert"]/comps</xpath>
 					<value>
 						<li>
 							<compClass>FacialAnimation.DrawFaceGraphicsComp</compClass>
@@ -64,9 +64,9 @@
 				</match>
 			</li>
             <li Class="PatchOperationConditional">
-				<xpath>/Defs/ThingDef[@Name="BasePawnSkynet"]/comps</xpath>
+				<xpath>Defs/ThingDef[@Name="BasePawnSkynet"]/comps</xpath>
 				<nomatch Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[@Name="BasePawnSkynet"]</xpath>
+					<xpath>Defs/ThingDef[@Name="BasePawnSkynet"]</xpath>
 					<value>
 						<comps>
 							<li>
@@ -94,7 +94,7 @@
 					</value>
 				</nomatch>
 				<match Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[@Name="BasePawnSkynet"]/comps</xpath>
+					<xpath>Defs/ThingDef[@Name="BasePawnSkynet"]/comps</xpath>
 					<value>
 						<li>
 							<compClass>FacialAnimation.DrawFaceGraphicsComp</compClass>
