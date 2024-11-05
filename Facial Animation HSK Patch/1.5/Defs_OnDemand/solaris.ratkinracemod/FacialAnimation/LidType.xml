@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.LidTypeDef>
+	  <defName>Ratkin_LidNormal</defName>
+	  <texPath>Things/Pawn/Ratkin/Lids/Normal</texPath>
+	  <raceName>Ratkin</raceName>
+	  <shader>Map/Transparent</shader>
+  </FacialAnimation.LidTypeDef>
+  
+  <FacialAnimation.LidTypeDef>
+	  <defName>Ratkin_LidPointy</defName>
+	  <texPath>Things/Pawn/Ratkin/Lids/Sleepy</texPath>
+	  <raceName>Ratkin</raceName>
+	  <shader>Map/Transparent</shader>
+  </FacialAnimation.LidTypeDef>
+  
+  <FacialAnimation.LidTypeDef>
+	  <defName>Ratkin_LidSleepy</defName>
+	  <texPath>Things/Pawn/Ratkin/Lids/Pointy</texPath>
+	  <raceName>Ratkin</raceName>
+	  <shader>Map/Transparent</shader>
+  </FacialAnimation.LidTypeDef>
+  
+  <FacialAnimation.LidTypeDef>
+	  <defName>Ratkin_LidNormal_Su</defName>
+	  <texPath>Things/Pawn/Ratkin/Lids/Normal</texPath>
+	  <raceName>Ratkin_Su</raceName>
+	  <shader>Map/Transparent</shader>
+  </FacialAnimation.LidTypeDef>
+  
+  <FacialAnimation.LidTypeDef>
+	  <defName>Ratkin_LidPointy_Su</defName>
+	  <texPath>Things/Pawn/Ratkin/Lids/Sleepy</texPath>
+	  <raceName>Ratkin_Su</raceName>
+	  <shader>Map/Transparent</shader>
+  </FacialAnimation.LidTypeDef>
+  
+  <FacialAnimation.LidTypeDef>
+	  <defName>Ratkin_LidSleepy_Su</defName>
+	  <texPath>Things/Pawn/Ratkin/Lids/Pointy</texPath>
+	  <raceName>Ratkin_Su</raceName>
+	  <shader>Map/Transparent</shader>
+  </FacialAnimation.LidTypeDef>
+</Defs>

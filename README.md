@@ -19,25 +19,16 @@
     * Revia<br>
     * Nyaron<br>
 <br><br>
-*Other races (maybe will patch for HSK in the future):*<br>
+*Other races:*<br>
     * Astoriel<br>
-    * Crystalloid<br>
     * Dragonian<br>
     * Drow<br>
     * All Rimcraft races<br>
     * Seren from Stardust<br>
     * Twilek<br>
 <br><br>
-**Mods and patches used:**<br>
-    * https://steamcommunity.com/sharedfiles/filedetails/?id=2486012341<br>
-    * https://steamcommunity.com/sharedfiles/filedetails/?id=2832533588<br>
-    * https://steamcommunity.com/sharedfiles/filedetails/?id=2632204415<br>
-    * https://steamcommunity.com/sharedfiles/filedetails/?id=2471147554<br>
-    * https://steamcommunity.com/sharedfiles/filedetails/?id=2514931053<br>
-    * https://steamcommunity.com/sharedfiles/filedetails/?id=2811549783<br>
-    * https://steamcommunity.com/sharedfiles/filedetails/?id=2820313308<br>
-    * https://steamcommunity.com/sharedfiles/filedetails/?id=2852881266<br>
-    * https://steamcommunity.com/sharedfiles/filedetails/?id=2844766352<br>
+**Also highly recommended to install this mod with enabled Biotech:**
+https://steamcommunity.com/sharedfiles/filedetails/?id=2950353635
 <br><br>
 <img src="https://i.imgur.com/5KVUmeE.png"><br>
 Q: Is this mod save game compatible?<br>

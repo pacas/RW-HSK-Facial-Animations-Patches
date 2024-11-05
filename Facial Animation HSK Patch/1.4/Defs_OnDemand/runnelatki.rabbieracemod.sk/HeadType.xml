@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <FacialAnimation.HeadTypeDef>
+        <defName>RabbieHeadNormal</defName>
+        <texPath>Things/Pawn/Rabbie/Heads_Blank/Normal</texPath>
+        <raceName>Rabbie</raceName>
+        <shader>Map/CutoutSkin</shader>
+    </FacialAnimation.HeadTypeDef>
+    <FacialAnimation.HeadTypeDef>
+        <defName>RabbieHeadPointy</defName>
+        <texPath>Things/Pawn/Rabbie/Heads_Blank/Pointy</texPath>
+        <raceName>Rabbie</raceName>
+        <gender>Female</gender>
+        <shader>Map/CutoutSkin</shader>
+    </FacialAnimation.HeadTypeDef>
+    <FacialAnimation.HeadTypeDef>
+        <defName>RabbieHeadSquare</defName>
+        <texPath>Things/Pawn/Rabbie/Heads_Blank/Square</texPath>
+        <raceName>Rabbie</raceName>
+        <gender>Male</gender>
+        <shader>Map/CutoutSkin</shader>
+    </FacialAnimation.HeadTypeDef>
+</Defs>

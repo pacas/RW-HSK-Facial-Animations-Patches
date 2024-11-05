@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.LidShapeDef>
+  	<defName>normal</defName>
+  </FacialAnimation.LidShapeDef>
+
+  <FacialAnimation.LidShapeDef>
+	  <defName>close</defName>
+    <disableEyeball>true</disableEyeball>
+  </FacialAnimation.LidShapeDef>
+
+  <FacialAnimation.LidShapeDef>
+    <defName>half</defName>
+  </FacialAnimation.LidShapeDef>
+
+</Defs>

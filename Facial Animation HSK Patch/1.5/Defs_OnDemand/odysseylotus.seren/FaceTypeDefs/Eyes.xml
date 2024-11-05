@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<FacialAnimation.EyeballTypeDef>
+		<defName>SerenEyesNormal</defName>
+		<texPath>Things/Pawn/Seren/Eyes/Normal</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/CutoutComplex</shader>
+		<minColor>RGB(0.25,0.25,0.75)</minColor>
+		<maxColor>RGB(1,1,1)</maxColor>
+	</FacialAnimation.EyeballTypeDef>
+
+	<!-- <FacialAnimation.EyeballTypeDef>
+		<defName>SerenEyesWide</defName>
+		<texPath>Things/Pawn/Seren/Eyes/Wide</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/CutoutComplex</shader>
+		<minColor>RGB(0.25,0.25,0.75)</minColor>
+		<maxColor>RGB(1,1,1)</maxColor>
+	</FacialAnimation.EyeballTypeDef>
+
+	<FacialAnimation.EyeballTypeDef>
+		<defName>SerenEyesPointy</defName>
+		<texPath>Things/Pawn/Seren/Eyes/Pointy</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/CutoutComplex</shader>
+		<minColor>RGB(0.25,0.25,0.75)</minColor>
+		<maxColor>RGB(1,1,1)</maxColor>
+	</FacialAnimation.EyeballTypeDef> -->
+
+	<FacialAnimation.EyeballTypeDef>
+		<defName>SerenEyesDull</defName>
+		<texPath>Things/Pawn/Seren/Eyes/Dull</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/CutoutComplex</shader>
+		<minColor>RGB(0.25,0.25,0.75)</minColor>
+		<maxColor>RGB(1,1,1)</maxColor>
+		<probability>0.25</probability>
+	</FacialAnimation.EyeballTypeDef>
+
+	<FacialAnimation.EyeballTypeDef>
+		<defName>SerenEyesIntense</defName>
+		<texPath>Things/Pawn/Seren/Eyes/Intense</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/CutoutComplex</shader>
+		<minColor>RGB(0.25,0.25,0.75)</minColor>
+		<maxColor>RGB(1,1,1)</maxColor>
+		<probability>0.25</probability>
+	</FacialAnimation.EyeballTypeDef>
+	
+	<FacialAnimation.EyeballTypeDef>
+		<defName>SerenEyesEmpty</defName>
+		<texPath>Things/Pawn/Seren/Eyes/Empty</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/CutoutComplex</shader>
+		<minColor>RGB(0.25,0.25,0.75)</minColor>
+		<maxColor>RGB(1,1,1)</maxColor>
+		<probability>0.1</probability>
+	</FacialAnimation.EyeballTypeDef>
+
+</Defs>

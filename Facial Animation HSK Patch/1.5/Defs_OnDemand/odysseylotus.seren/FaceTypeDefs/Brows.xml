@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<FacialAnimation.BrowTypeDef>
+		<defName>SerenBrowNormal</defName>
+		<texPath>Things/Pawn/Seren/Original/Brows/Normal</texPath>
+		<raceName>ReviaRaceAlien</raceName>
+		<shader>Map/Transparent</shader>
+	</FacialAnimation.BrowTypeDef>
+
+	<FacialAnimation.BrowTypeDef>
+		<defName>SerenBrowThick</defName>
+		<texPath>Things/Pawn/Seren/Original/Brows/Thick</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/Transparent</shader>
+	</FacialAnimation.BrowTypeDef>
+
+</Defs>

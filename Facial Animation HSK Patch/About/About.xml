@@ -3,50 +3,11 @@
     <name>Facial Animation HSK Patch</name>
     <author>Pacas</author>
     <supportedVersions>
-        <li>1.3</li>
 		<li>1.4</li>
+		<li>1.5</li>
     </supportedVersions>
     <packageId>pacas.faceanim.hsk</packageId>
-    <description>
-		Smile!
-        
-        &lt;size=24&gt;Supported races&lt;/size&gt;:
-            &lt;size=20&gt;Included in HSK&lt;/size&gt;:
-                Dova,
-                Nova,
-                Norbal,
-                Orassan,
-                Skynet,
-                Ratkin,
-                Androids,
-                Asari.
-            
-            &lt;size=20&gt;Patched for HSK&lt;/size&gt;:
-                Rabbie,
-                Revia,
-                Nyaron.
-                
-            &lt;size=20&gt;Other races (maybe will patch in the future)&lt;/size&gt;:
-                Astoriel,
-                Crystalloid,
-                Dragonian,
-                Drow,
-                All Rimcraft races,
-                Seren from Stardust,
-                Twilek.
-        
-        
-        &lt;size=20&gt;Used mods&lt;/size&gt;:
-        https://steamcommunity.com/sharedfiles/filedetails/?id=2486012341
-        https://steamcommunity.com/sharedfiles/filedetails/?id=2832533588
-        https://steamcommunity.com/sharedfiles/filedetails/?id=2632204415
-        https://steamcommunity.com/sharedfiles/filedetails/?id=2471147554
-        https://steamcommunity.com/sharedfiles/filedetails/?id=2514931053
-        https://steamcommunity.com/sharedfiles/filedetails/?id=2811549783
-        https://steamcommunity.com/sharedfiles/filedetails/?id=2820313308
-        https://steamcommunity.com/sharedfiles/filedetails/?id=2852881266
-        https://steamcommunity.com/sharedfiles/filedetails/?id=2844766352
-	</description>
+    <description>Smile! Full supported race list can be found on github. Also use mod https://steamcommunity.com/sharedfiles/filedetails/?id=2950353635 if you have Biotech installed.</description>
     <modDependencies>
         <li>
 			<packageId>erdelf.HumanoidAlienRaces</packageId>

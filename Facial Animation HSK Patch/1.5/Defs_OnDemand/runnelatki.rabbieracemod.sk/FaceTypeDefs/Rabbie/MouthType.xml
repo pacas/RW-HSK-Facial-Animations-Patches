@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.MouthTypeDef>
+	<defName>RB_MouthNormal</defName>
+	<texPath>Things/Pawn/Rabbie/Mouth/Normal</texPath>
+	<raceName>Rabbie</raceName>
+	<shader>Map/Transparent</shader>
+  </FacialAnimation.MouthTypeDef>
+  
+  <FacialAnimation.MouthTypeDef>
+	<defName>RB_MouthCalm</defName>
+	<texPath>Things/Pawn/Rabbie/Mouth/Calm</texPath>
+	<raceName>Rabbie</raceName>
+    <probability>0.3</probability>
+	<shader>Map/Transparent</shader>
+  </FacialAnimation.MouthTypeDef>
+  
+  <FacialAnimation.MouthTypeDef>
+	<defName>RB_MouthSmile</defName>
+	<texPath>Things/Pawn/Rabbie/Mouth/Smile</texPath>
+	<raceName>Rabbie</raceName>
+	<shader>Map/Transparent</shader>
+    <probability>0.1</probability>
+  </FacialAnimation.MouthTypeDef>
+  
+  <FacialAnimation.MouthTypeDef>
+	<defName>RB_MouthSilent</defName>
+	<texPath>Things/Pawn/Rabbie/Mouth/Silent</texPath>
+	<raceName>Rabbie</raceName>
+	<shader>Map/Transparent</shader>
+    <probability>0.1</probability>
+  </FacialAnimation.MouthTypeDef>
+  
+  <FacialAnimation.MouthTypeDef>
+	<defName>RB_MouthFrown</defName>
+	<texPath>Things/Pawn/Rabbie/Mouth/Frown</texPath>
+	<raceName>Rabbie</raceName>
+	<shader>Map/Transparent</shader>
+    <probability>0.1</probability>
+  </FacialAnimation.MouthTypeDef>
+</Defs>

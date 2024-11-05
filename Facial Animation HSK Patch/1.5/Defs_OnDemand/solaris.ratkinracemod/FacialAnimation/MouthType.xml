@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.MouthTypeDef>
+	  <defName>Ratkin_MouthNormal</defName>
+	  <texPath>Things/Pawn/Ratkin/Mouth/Normal</texPath>
+	  <raceName>Ratkin</raceName>
+	  <shader>Map/Transparent</shader>
+  </FacialAnimation.MouthTypeDef>
+  
+  <FacialAnimation.MouthTypeDef>
+	  <defName>Ratkin_MouthNormal_Su</defName>
+	  <texPath>Things/Pawn/Ratkin/Mouth/Normal</texPath>
+	  <raceName>Ratkin_Su</raceName>
+	  <shader>Map/Transparent</shader>
+  </FacialAnimation.MouthTypeDef>
+
+</Defs>

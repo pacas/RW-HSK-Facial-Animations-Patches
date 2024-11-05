@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.LidTypeDef>
+	  <defName>RB_LidNormal</defName>
+	  <texPath>Things/Pawn/Rabbie/Lids/Normal</texPath>
+	  <raceName>Rabbie</raceName>
+	  <shader>Map/Transparent</shader>
+  </FacialAnimation.LidTypeDef>
+
+  <FacialAnimation.LidTypeDef>
+	  <defName>RB_LidQuite</defName>
+      <texPath>Things/Pawn/Rabbie/Lids/Quite</texPath>
+	  <raceName>Rabbie</raceName>
+      <shader>Map/Transparent</shader>
+  </FacialAnimation.LidTypeDef>
+
+  <FacialAnimation.LidTypeDef>
+      <defName>RB_LidSleepy</defName>
+      <texPath>Things/Pawn/Rabbie/Lids/Sleepy</texPath>
+	  <raceName>Rabbie</raceName>
+      <shader>Map/Transparent</shader>
+  </FacialAnimation.LidTypeDef>
+
+  <FacialAnimation.LidTypeDef>
+      <defName>RB_LidFocused</defName>
+      <texPath>Things/Pawn/Rabbie/Lids/Focused</texPath>
+	  <raceName>Rabbie</raceName>
+      <shader>Map/Transparent</shader>
+  </FacialAnimation.LidTypeDef>
+  
+    <FacialAnimation.LidTypeDef>
+      <defName>RB_LidSnarky</defName>
+      <texPath>Things/Pawn/Rabbie/Lids/Snarky</texPath>
+	  <raceName>Rabbie</raceName>
+      <shader>Map/Transparent</shader>
+  </FacialAnimation.LidTypeDef>
+  
+    <FacialAnimation.LidTypeDef>
+      <defName>RB_LidFlashy</defName>
+      <texPath>Things/Pawn/Rabbie/Lids/Flashy</texPath>
+	  <raceName>Rabbie</raceName>
+      <shader>Map/Transparent</shader>
+  </FacialAnimation.LidTypeDef>
+</Defs>

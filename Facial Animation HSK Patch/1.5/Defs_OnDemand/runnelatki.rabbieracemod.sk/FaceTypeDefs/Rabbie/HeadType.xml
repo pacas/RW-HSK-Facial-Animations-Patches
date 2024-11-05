@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.HeadTypeDef>
+	  <defName>RB_HeadNormal</defName>
+	  <texPath>Things/Pawn/Rabbie/Heads_Blank/Rabbiehead</texPath>
+	  <raceName>Rabbie</raceName>
+	  <shader>Map/CutoutSkin</shader>
+  </FacialAnimation.HeadTypeDef>
+
+</Defs>

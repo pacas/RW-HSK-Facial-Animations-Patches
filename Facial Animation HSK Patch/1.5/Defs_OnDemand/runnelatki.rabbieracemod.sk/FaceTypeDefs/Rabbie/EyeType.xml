@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.EyeballTypeDef>
+	<defName>RB_EyeNormal</defName>
+	<texPath>Things/Pawn/Rabbie/Eyes/Normal</texPath>
+	<raceName>Rabbie</raceName>
+	<shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.85,0.85,0.85)</maxColor>
+  </FacialAnimation.EyeballTypeDef>
+
+  <FacialAnimation.EyeballTypeDef>
+    <defName>RB_EyeQuite</defName>
+    <texPath>Things/Pawn/Rabbie/Eyes/Quite</texPath>
+	<raceName>Rabbie</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.85,0.85,0.85)</maxColor>
+  </FacialAnimation.EyeballTypeDef>
+
+  <FacialAnimation.EyeballTypeDef>
+    <defName>RB_EyeSleepy</defName>
+    <texPath>Things/Pawn/Rabbie/Eyes/Sleepy</texPath>
+	<raceName>Rabbie</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.85,0.85,0.85)</maxColor>
+  </FacialAnimation.EyeballTypeDef>
+
+    <FacialAnimation.EyeballTypeDef>
+    <defName>RB_EyeFocused</defName>
+    <texPath>Things/Pawn/Rabbie/Eyes/Focused</texPath>
+	<raceName>Rabbie</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.85,0.85,0.85)</maxColor>
+  </FacialAnimation.EyeballTypeDef>
+  
+  
+    <FacialAnimation.EyeballTypeDef>
+    <defName>RB_EyeSnarky</defName>
+    <texPath>Things/Pawn/Rabbie/Eyes/Snarky</texPath>
+	<raceName>Rabbie</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.85,0.85,0.85)</maxColor>
+  </FacialAnimation.EyeballTypeDef>
+  
+  
+    <FacialAnimation.EyeballTypeDef>
+    <defName>RB_EyeFlashy</defName>
+    <texPath>Things/Pawn/Rabbie/Eyes/Flashy</texPath>
+	<raceName>Rabbie</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <minColor>RGB(0.25,0.25,0.25)</minColor>
+    <maxColor>RGB(0.85,0.85,0.85)</maxColor>
+  </FacialAnimation.EyeballTypeDef>
+</Defs>

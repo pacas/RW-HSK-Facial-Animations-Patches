@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.LidOptionTypeDef>
+	<defName>RB_LidOptionNormal</defName>
+	<texPath>Things/Pawn/Rabbie/LidOptions/Normal</texPath>
+    <shader>Map/Transparent</shader>
+    <minColor>(1,1,1,1)</minColor>
+    <maxColor>(1,1,1,1)</maxColor>
+	<raceName>Rabbie</raceName>
+  </FacialAnimation.LidOptionTypeDef>
+</Defs>

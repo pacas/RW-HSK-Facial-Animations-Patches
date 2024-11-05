@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.BrowTypeDef>
+	  <defName>RB_NormalShort</defName>
+	  <texPath>Things/Pawn/Rabbie/Brows/NormalShort</texPath>
+	  <raceName>Rabbie</raceName>
+	  <shader>Map/Transparent</shader>
+  </FacialAnimation.BrowTypeDef>
+
+  <FacialAnimation.BrowTypeDef>
+	  <defName>RB_NormalLong</defName>
+	  <texPath>Things/Pawn/Rabbie/Brows/NormalLong</texPath>
+	  <raceName>Rabbie</raceName>
+	  <shader>Map/Transparent</shader>
+  </FacialAnimation.BrowTypeDef>
+  
+  <FacialAnimation.BrowTypeDef>
+	  <defName>RB_AngledShort</defName>
+	  <texPath>Things/Pawn/Rabbie/Brows/AngledShort</texPath>
+	  <gender>Female</gender>
+	  <raceName>Rabbie</raceName>
+	  <shader>Map/Transparent</shader>
+  </FacialAnimation.BrowTypeDef>
+
+  <FacialAnimation.BrowTypeDef>
+	  <defName>RB_AngledLong</defName>
+	  <texPath>Things/Pawn/Rabbie/Brows/AngledLong</texPath>
+	  <gender>Male</gender>
+	  <raceName>Rabbie</raceName>
+	  <shader>Map/Transparent</shader>
+  </FacialAnimation.BrowTypeDef>
+</Defs>

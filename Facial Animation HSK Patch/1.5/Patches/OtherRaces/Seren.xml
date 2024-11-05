@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>[Alien/Race] Seren, from Stardust</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationSequence">
+                    <operations>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Seren"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/path</xpath>
+                            <value>
+                                <path>Things/Seren/Ears/FacialAnimations/LeftEar</path>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Seren"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/path</xpath>
+                            <value>
+                                <path>Things/Seren/Ears/FacialAnimations/RightEar</path>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationTest">
+                            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Seren"]</xpath>
+                        </li>
+                        <li Class="PatchOperationConditional">
+                            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Seren"]/comps</xpath>
+                            <nomatch Class="PatchOperationAdd">
+                                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Seren"]</xpath>
+                                <value>
+                                    <comps>
+                                        <li>
+                                            <compClass>FacialAnimation.DrawFaceGraphicsComp</compClass>
+                                        </li>
+                                        <li>
+                                            <compClass>FacialAnimation.HeadControllerComp</compClass>
+                                        </li>
+                                        <li>
+                                            <compClass>FacialAnimation.EyeballControllerComp</compClass>
+                                        </li>
+                                        <li>
+                                            <compClass>FacialAnimation.LidControllerComp</compClass>
+                                        </li>
+                                        <li>
+                                            <compClass>FacialAnimation.BrowControllerComp</compClass>
+                                        </li>
+                                        <li>
+                                            <compClass>FacialAnimation.MouthControllerComp</compClass>
+                                        </li>
+                                        <li>
+                                            <compClass>FacialAnimation.SkinControllerComp</compClass>
+                                        </li>
+                                        <li>
+                                            <compClass>FacialAnimation.FacialAnimationControllerComp</compClass>
+                                        </li>
+                                    </comps>
+                                </value>
+                            </nomatch>
+                            <match Class="PatchOperationAdd">
+                                <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Seren"]/comps</xpath>
+                                <value>
+                                    <li>
+                                        <compClass>FacialAnimation.DrawFaceGraphicsComp</compClass>
+                                    </li>
+                                    <li>
+                                        <compClass>FacialAnimation.HeadControllerComp</compClass>
+                                    </li>
+                                    <li>
+                                        <compClass>FacialAnimation.EyeballControllerComp</compClass>
+                                    </li>
+                                    <li>
+                                        <compClass>FacialAnimation.LidControllerComp</compClass>
+                                    </li>
+                                    <li>
+                                        <compClass>FacialAnimation.BrowControllerComp</compClass>
+                                    </li>
+                                    <li>
+                                        <compClass>FacialAnimation.MouthControllerComp</compClass>
+                                    </li>
+                                    <li>
+                                        <compClass>FacialAnimation.SkinControllerComp</compClass>
+                                    </li>
+                                    <li>
+                                        <compClass>FacialAnimation.FacialAnimationControllerComp</compClass>
+                                    </li>
+                                </value>
+                            </match>
+                        </li>
+                    </operations>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Seren"]/comps</xpath>
+                    <value>
+                        <li>
+                            <compClass>FacialAnimation.LidOptionControllerComp</compClass>
+                        </li>
+                        <li>
+                            <compClass>FacialAnimation.EmotionControllerComp</compClass>
+                        </li>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

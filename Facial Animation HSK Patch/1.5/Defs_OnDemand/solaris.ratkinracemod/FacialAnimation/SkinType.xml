@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.SkinTypeDef>
+	  <defName>Ratkin_SkinNormal</defName>
+	  <texPath>Things/Pawn/Ratkin/Skins/Normal</texPath>
+	  <raceName>Ratkin</raceName>
+	  <shader>Map/CutoutSkin</shader>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+	  <defName>Ratkin_SkinRightEye</defName>
+	  <texPath>Things/Pawn/Ratkin/Skins/RightEye</texPath>
+	  <raceName>Ratkin</raceName>
+	  <shader>Map/Transparent</shader>
+    <probability>0.05</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>Ratkin_SkinLeftChin</defName>
+    <texPath>Things/Pawn/Ratkin/Skins/LeftChin</texPath>
+	<raceName>Ratkin</raceName>
+    <shader>Map/Transparent</shader>
+    <probability>0.05</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>Ratkin_SkinFreckled</defName>
+    <texPath>Things/Pawn/Ratkin/Skins/Freckled</texPath>
+	<raceName>Ratkin</raceName>
+    <shader>Map/Transparent</shader>
+    <gender>Female</gender>
+    <probability>0.1</probability>
+  </FacialAnimation.SkinTypeDef>
+  
+  <FacialAnimation.SkinTypeDef>
+	  <defName>Ratkin_SkinNormal_Su</defName>
+	  <texPath>Things/Pawn/Ratkin/Skins/Normal</texPath>
+	  <raceName>Ratkin_Su</raceName>
+	  <shader>Map/CutoutSkin</shader>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+	  <defName>Ratkin_SkinRightEye_Su</defName>
+	  <texPath>Things/Pawn/Ratkin/Skins/RightEye</texPath>
+	  <raceName>Ratkin_Su</raceName>
+	  <shader>Map/Transparent</shader>
+    <probability>0.05</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>Ratkin_SkinLeftChin_Su</defName>
+    <texPath>Things/Pawn/Ratkin/Skins/LeftChin</texPath>
+	<raceName>Ratkin_Su</raceName>
+    <shader>Map/Transparent</shader>
+    <probability>0.05</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>Ratkin_SkinFreckled_Su</defName>
+    <texPath>Things/Pawn/Ratkin/Skins/Freckled</texPath>
+	<raceName>Ratkin_Su</raceName>
+    <shader>Map/Transparent</shader>
+    <gender>Female</gender>
+    <probability>0.1</probability>
+  </FacialAnimation.SkinTypeDef>
+
+</Defs>

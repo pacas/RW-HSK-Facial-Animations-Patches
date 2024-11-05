@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.LidOptionTypeDef>
+    <defName>Ratkin_LidOptionNormal</defName>
+    <texPath>Things/Pawn/Ratkin_Experimentals/LidOptions/Normal</texPath>
+    <raceName>Ratkin</raceName>
+    <shader>Map/Transparent</shader>
+    <minColor>(1,1,1,1)</minColor>
+    <maxColor>(1,1,1,1)</maxColor>
+  </FacialAnimation.LidOptionTypeDef>
+  
+  <FacialAnimation.LidOptionTypeDef>
+    <defName>Ratkin_LidOptionNormal_Su</defName>
+    <texPath>Things/Pawn/Ratkin_Experimentals/LidOptions/Normal</texPath>
+    <raceName>Ratkin_Su</raceName>
+    <shader>Map/Transparent</shader>
+    <minColor>(1,1,1,1)</minColor>
+    <maxColor>(1,1,1,1)</maxColor>
+  </FacialAnimation.LidOptionTypeDef>
+</Defs>

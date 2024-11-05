@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FacialAnimation.HeadTypeDef>
+		<defName>SerenHeadNormal</defName>
+		<texPath>Things/Pawn/Seren/Heads_Blank/Normal</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/CutoutSkin</shader> <!-- CutoutSkin -->
+	</FacialAnimation.HeadTypeDef>
+
+	<FacialAnimation.HeadTypeDef>
+		<defName>SerenHeadPointy</defName>
+		<texPath>Things/Pawn/Seren/Heads_Blank/Pointy</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/CutoutSkin</shader>
+	</FacialAnimation.HeadTypeDef>
+
+	<FacialAnimation.HeadTypeDef>
+		<defName>SerenHeadSquare</defName>
+		<texPath>Things/Pawn/Seren/Heads_Blank/Square</texPath>
+		<raceName>Seren</raceName>
+		<shader>Map/CutoutSkin</shader>
+	</FacialAnimation.HeadTypeDef>
+
+</Defs>

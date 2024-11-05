@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+  
+<Defs>
+
+<FacialAnimation.HeadTypeDef>
+<defName>NyaronHeadNormal</defName>
+<texPath>Things/Pawn/Nyaron/Heads_Blank/Normal</texPath>
+<raceName>Alien_Nyaron</raceName>
+<shader>Map/CutoutSkin</shader>
+</FacialAnimation.HeadTypeDef>
+
+<FacialAnimation.HeadTypeDef>
+<defName>NyaronHeadPointy</defName>
+<texPath>Things/Pawn/Nyaron/Heads_Blank/Pointy</texPath>
+<raceName>Alien_Nyaron</raceName>
+<gender>Female</gender>
+<shader>Map/CutoutSkin</shader>
+</FacialAnimation.HeadTypeDef>
+
+</Defs>

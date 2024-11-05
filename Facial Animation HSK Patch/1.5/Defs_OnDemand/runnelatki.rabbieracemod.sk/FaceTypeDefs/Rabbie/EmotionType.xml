@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <FacialAnimation.EmotionTypeDef>
+	  <defName>RB_EmotionNormal</defName>
+	  <texPath>Things/Pawn/Rabbie/Emotions/Normal</texPath>
+      <shader>Map/Transparent</shader>
+	  <raceName>Rabbie</raceName>
+  </FacialAnimation.EmotionTypeDef>
+</Defs>

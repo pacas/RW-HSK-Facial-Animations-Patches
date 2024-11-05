@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  
+  <FacialAnimation.SkinTypeDef>
+    <defName>SerenBrows</defName>
+    <texPath>Things/Pawn/Seren/Skins/Brows</texPath>
+    <raceName>Seren</raceName>
+    <shader>Map/CutoutComplex</shader><!--CutoutComplex-->
+    <probability>0.15</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>SerenCenterLarge</defName>
+    <texPath>Things/Pawn/Seren/Skins/CenterLarge</texPath>
+    <raceName>Seren</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <probability>0.15</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>SerenCenterSmall</defName>
+    <texPath>Things/Pawn/Seren/Skins/CenterSmall</texPath>
+    <raceName>Seren</raceName>
+    <shader>Map/CutoutComplex</shader>
+	<probability>0.2</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>SerenCheeks</defName>
+    <texPath>Things/Pawn/Seren/Skins/Cheeks</texPath>
+    <raceName>Seren</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <probability>0.15</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>SerenFreckles</defName>
+    <texPath>Things/Pawn/Seren/Skins/Freckles</texPath>
+    <raceName>Seren</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <probability>0.15</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>SerenTarget</defName>
+    <texPath>Things/Pawn/Seren/Skins/Target</texPath>
+    <raceName>Seren</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <probability>0.1</probability>
+  </FacialAnimation.SkinTypeDef>
+
+  <FacialAnimation.SkinTypeDef>
+    <defName>SerenTriStar</defName>
+    <texPath>Things/Pawn/Seren/Skins/TriStar</texPath>
+    <raceName>Seren</raceName>
+    <shader>Map/CutoutComplex</shader>
+    <probability>0.1</probability>
+  </FacialAnimation.SkinTypeDef>
+
+</Defs>
