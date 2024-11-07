@@ -33,6 +33,12 @@
 							<li>
 								<compClass>FacialAnimation.FacialAnimationControllerComp</compClass>
 							</li>
+                            <li>
+                                <compClass>FacialAnimation.LidOptionControllerComp</compClass>
+                            </li>
+                            <li>
+                                <compClass>FacialAnimation.EmotionControllerComp</compClass>
+                            </li>
 						</comps>
 					</value>
 				</nomatch>
@@ -60,6 +66,12 @@
 						<li>
 							<compClass>FacialAnimation.FacialAnimationControllerComp</compClass>
 						</li>
+                        <li>
+                            <compClass>FacialAnimation.LidOptionControllerComp</compClass>
+                        </li>
+                        <li>
+                            <compClass>FacialAnimation.EmotionControllerComp</compClass>
+                        </li>
 					</value>
 				</match>
 			</li>
@@ -90,6 +102,12 @@
 							<li>
 								<compClass>FacialAnimation.FacialAnimationControllerComp</compClass>
 							</li>
+                            <li>
+                                <compClass>FacialAnimation.LidOptionControllerComp</compClass>
+                            </li>
+                            <li>
+                                <compClass>FacialAnimation.EmotionControllerComp</compClass>
+                            </li>
 						</comps>
 					</value>
 				</nomatch>
@@ -117,6 +135,12 @@
 						<li>
 							<compClass>FacialAnimation.FacialAnimationControllerComp</compClass>
 						</li>
+                        <li>
+                            <compClass>FacialAnimation.LidOptionControllerComp</compClass>
+                        </li>
+                        <li>
+                            <compClass>FacialAnimation.EmotionControllerComp</compClass>
+                        </li>
 					</value>
 				</match>
 			</li>

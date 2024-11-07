@@ -48,6 +48,12 @@
                         <li>
                             <compClass>FacialAnimation.FacialAnimationControllerComp</compClass>
                         </li>
+                        <li>
+                            <compClass>FacialAnimation.LidOptionControllerComp</compClass>
+                        </li>
+                        <li>
+                            <compClass>FacialAnimation.EmotionControllerComp</compClass>
+                        </li>
                     </value>
                 </li>
             </operations>
