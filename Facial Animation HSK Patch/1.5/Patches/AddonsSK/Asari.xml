@@ -36,6 +36,12 @@
                                 <li>
                                     <compClass>FacialAnimation.FacialAnimationControllerComp</compClass>
                                 </li>
+                                <li>
+                                    <compClass>FacialAnimation.LidOptionControllerComp</compClass>
+                                </li>
+                                <li>
+                                    <compClass>FacialAnimation.EmotionControllerComp</compClass>
+                                </li>
                             </comps>
                         </value>
                     </nomatch>
@@ -63,8 +69,26 @@
                             <li>
                                 <compClass>FacialAnimation.FacialAnimationControllerComp</compClass>
                             </li>
+                            <li>
+                                <compClass>FacialAnimation.LidOptionControllerComp</compClass>
+                            </li>
+                            <li>
+                                <compClass>FacialAnimation.EmotionControllerComp</compClass>
+                            </li>
                         </value>
                     </match>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs</xpath>
+                    <value>
+                        <FacialAnimation.HeadTypeDef>
+                            <defName>AsariFaceNormal</defName>
+                            <texPath>Things/FAHeads/Asari</texPath>
+                            <shader>Map/CutoutSkin</shader>
+                            <raceName>Alien_Asari</raceName>
+                            <shaderColorOverride>Map/CutoutSkinOverride</shaderColorOverride>
+                        </FacialAnimation.HeadTypeDef>
+                    </value>
                 </li>
             </operations>
         </match>

@@ -6,10 +6,4 @@
         <shader>Map/CutoutSkin</shader>
         <raceName>Alien_Asari</raceName>
     </FacialAnimation.HeadTypeDef>
-    <FacialAnimation.HeadTypeDef>
-        <defName>AndroidHeadNormal</defName>
-        <texPath>Things/FAHeads/Android</texPath>
-        <shader>Map/CutoutSkin</shader>
-        <raceName>ChjAndroid</raceName>
-    </FacialAnimation.HeadTypeDef>
 </Defs>
